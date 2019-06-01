@@ -6,9 +6,9 @@
 title: Anand Damodaran
 email: dvlpr.anand@gmail.com
 description: Android Developer
-url: https://helloanand.dev
+url: 
 keywords: ["blog"]
-destination: public
+#destination: public
 
 #
 ###################################
@@ -20,8 +20,6 @@ markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
-url: https://helloanand.dev
-
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -36,8 +34,8 @@ kramdown:
 owner:
   name: Anand Damodaran
   avatar: avatar.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: "Android Developer"
+  bio: "Lovable Husband."
   email: dvlpr.anand@gmail.com
   disqus-shortname:
   twitter: anAndroidDev
