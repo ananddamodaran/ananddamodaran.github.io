@@ -1,8 +1,9 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: Saranathan College of Engineering
+  link: https://www.saranathan.ac.in/
+  date: 2008 - 2011
+  domain: Master of Computer Applications (M.C.A.), Computer Science ,
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: St Joseph's College
+  link: http://www.sjctni.edu/
+  date: 2004 - 2007
+  domain: Bachelor of Science (B.Sc.), Mathematics ,
