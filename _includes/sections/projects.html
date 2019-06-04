@@ -7,10 +7,15 @@
                 <p style="margin: 0">{{ project.descr }}</p>
 
                 {% if project.github %}
-                <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                <a href="{{ project.github }} "><i class="fa fa-fw fa-play"></i>GitHub</a>
+
                 {% endif %}
                 {% if project.website %}
                 <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
+                {% endif %}
+
+                 {% if project.playstore %}
+                <a href="{{ project.playstore }} "><i class="fa fa-fw fa-play"></i>Playstore</a>
                 {% endif %}
 
             </div>
