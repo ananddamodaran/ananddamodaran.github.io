@@ -70,3 +70,5 @@ owner:
   telegram: #username
 
 theme: jekyll-theme-cayman
+plugins:
+  - jemoji
