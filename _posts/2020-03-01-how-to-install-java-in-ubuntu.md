@@ -9,7 +9,7 @@ image:
   credit: 
   creditlink: 
 ---
-Oracle Java SE 13 was released September 2019. The latest update of JDK 13.0.2
+Oracle Java SE 13 was released September 2019. The latest update of Java JDK is 13.0.2. In this post we install the JDK in Ubuntu Linux 18.04 LTS.
 
 ![image](https://miro.medium.com/max/8512/0*-hMqapazeDO-IOck)
 
@@ -50,7 +50,11 @@ $ sudo update-alternatives --set java /usr/local/java/jdk-13.0.2/jre/bin/java
 $ sudo update-alternatives --set javac /usr/local/java/jdk-13.0.2/bin/javac
 
 #Reload the system PATH  
-. /etc/profile
+$ . /etc/profile
+
+# Test to see if Oracle Java is installed correctly
+$ java -version
 
 {% endhighlight %}
 
+:smiley:
