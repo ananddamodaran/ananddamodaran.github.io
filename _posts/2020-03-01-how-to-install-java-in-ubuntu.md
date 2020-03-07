@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install Oracle JDK 13.0.2 in Ubuntu 18.04 LTS
+title: Install Oracle Java JDK 13.0.2 in Ubuntu 18.04 LTS
 excerpt: "Getting started with Java."
 categories: [Java]
 comments: false
