@@ -5,7 +5,7 @@ excerpt: "Getting started with Java."
 categories: [Java]
 comments: false
 image:
-  feature:
+  feature: https://miro.medium.com/max/8512/0*-hMqapazeDO-IOck
   credit: 
   creditlink: 
 ---
