@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Install Oracle Java JDK 13.0.2 in Ubuntu 18.04 LTS
+title: Install Oracle Java JDK in Ubuntu Linux
 excerpt: "Getting started with Java."
 categories: [Java]
-comments: false
+comments: true
 image:
   feature: https://miro.medium.com/max/8512/0*-hMqapazeDO-IOck
   credit: Medium
@@ -56,4 +56,11 @@ $ java -version
 
 {% endhighlight %}
 
-:smiley:
+
+Update: To download Java JDK 14 use the below command
+> {% highlight shell %}
+$ wget --no-check-certificate -c --header  "Cookie: oraclelicense=accept-securebackup-cookie" "https://download.oracle.com/otn-pub/java/jdk/14+36/076bab302c7b4508975440c56f6cc26a/jdk-14_linux-x64_bin.tar.gz"
+
+{% endhighlight %}
+
+
