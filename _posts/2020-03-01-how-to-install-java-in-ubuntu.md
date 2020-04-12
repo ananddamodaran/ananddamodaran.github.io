@@ -4,7 +4,7 @@ title: Install Oracle Java JDK in Ubuntu Linux
 excerpt: "Getting started with Java."
 categories: [Java]
 comments: true
-url : http://localhost:4000/articles/2020-03/how-to-install-java-in-ubuntu
+url : https://anand.damodaran.dev/articles/2020-03/how-to-install-java-in-ubuntu
 identifier: 1234
 image:
   feature: https://miro.medium.com/max/8512/0*-hMqapazeDO-IOck

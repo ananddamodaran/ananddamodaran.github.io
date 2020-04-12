@@ -37,12 +37,12 @@ owner:
   job: "Android Developer"
   bio: ""
   email: dvlpr.anand@gmail.com
-  disqus-shortname: danand
+  #disqus-shortname: danand
   twitter: anand_damodaran
   facebook: #username
   google:
     plus: #username
-    analytics: UA-98828698-2
+    analytics: UA-163451563-1
     verify:
     ad-client:
     ad-slot:
