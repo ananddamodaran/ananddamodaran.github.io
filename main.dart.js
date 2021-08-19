@@ -47145,7 +47145,7 @@ $C:"$0",
 $R:0,
 $S:0}
 F.X_.prototype={
-$0:function(){return this.a.eb("mailto:anand@damodaran.dev&subject=Hello Anand")},
+$0:function(){return this.a.eb("mailto:anand@damodaran.dev")},
 $C:"$0",
 $R:0,
 $S:0}

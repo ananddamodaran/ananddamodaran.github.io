@@ -1,6 +1,6 @@
 {
-    "name": "Anand Damodaran",
-    "short_name": "Anand Damodaran",
+    "name": "flutterdemo",
+    "short_name": "flutterdemo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
