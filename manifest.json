@@ -1,11 +1,11 @@
 {
-    "name": "ananddamodaran",
-    "short_name": "anand",
+    "name": "Anand Damodaran",
+    "short_name": "Anand Damodaran",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Anand Damodaran",
+    "description": "Flutter Demos",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
