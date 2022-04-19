@@ -1,0 +1,74 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Anand Damodaran
+email: dvlpr.anand@gmail.com
+description: Android Developer
+url: https://anand.damodaran.dev
+keywords: ["blog"]
+#destination: public
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Anand Damodaran
+  avatar: avatar.png
+  job: "Android Developer"
+  bio: ""
+  email: dvlpr.anand@gmail.com
+  disqus-shortname: danand
+  twitter: anand_damodaran
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-163451563-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ananddamodaran
+  gitlab: #username
+  stackoverflow: 8924352/anand-damodaran #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: helloanand
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: /user/547748033
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
+
+theme: jekyll-theme-cayman
+plugins:
+  - jemoji

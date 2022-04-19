@@ -1,0 +1,32 @@
+- name: Snapooh Monitor
+  descr: "#Snapooh monitor is a mobile app used to capture and share photos with tamper proof timestamp and geo-tag and link them to media assets, point of interest and Google places.
+
+\n\rAll photos captured by different operation executives are stored in one centralized inbox with relevant tags and notes, which can be searched, viewed and analysed. Monitor and manage your media spaces from your inbox. 
+
+Share the auditable campaign photos with your clients and others with a single click.
+
+Download the app and sign up your free account on www.snapooh.com
+"
+  image: pong.png
+  playstore: https://play.google.com/store/apps/details?id=com.snapooh.snapoohmonitor
+  website: http://www.snapooh.com
+
+
+
+- name: Snapooh View
+  descr: "Snapooh View facilitates receiving and sharing OOH media monitors on the go. 
+
+A user friendly and best experience app developed for snapooh vendors to view all information about the monitors in their account inbox.
+- Beta version
+
+Features:
+- Instant notification alert on receiving new monitors
+- A single dashboard view displaying important parameters of the monitors
+- Detailed view of each monitor with geo tags, photos, maps and alerts
+- Use calendar list to filter your view of media monitor’s.
+- Share monitors with your team and clients
+- Get monitoring data on your smartphone 24/7
+"
+  image: pong.png
+  playstore: https://play.google.com/store/apps/details?id=com.snapooh.monitorview
+  website: http://www.snapooh.com
