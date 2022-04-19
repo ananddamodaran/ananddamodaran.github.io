@@ -6,7 +6,7 @@
 title: Anand Damodaran
 email: dvlpr.anand@gmail.com
 description: Android Developer
-url: https://anand.damodaran.dev
+url: https://damodaran.dev
 keywords: ["blog"]
 #destination: public
 
@@ -36,7 +36,7 @@ owner:
   avatar: avatar.png
   job: "Android Developer"
   bio: ""
-  email: dvlpr.anand@gmail.com
+  email: anand@damodaran.dev
   disqus-shortname: danand
   twitter: anand_damodaran
   facebook: #username

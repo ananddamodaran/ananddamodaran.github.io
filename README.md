@@ -1,1 +1,1 @@
-https://anand.damodaran.dev
+https://damodaran.dev
