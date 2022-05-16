@@ -6,7 +6,7 @@
 title: Anand Damodaran
 email: info.ananddamodaran@gmail.com
 description: Android Developer
-url: https://anand.dev
+url: https://damodaran.dev
 keywords: ["blog"]
 #destination: public
 
@@ -43,7 +43,7 @@ owner:
   google:
     plus: #username
     #analytics: UA-163451563-1  G-ELNYV3EVW2
-    analytics: G-ELNYV3EVW
+    analytics: G-Q26BWC9SW2
     verify:
     ad-client:
     ad-slot:
