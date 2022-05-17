@@ -5,7 +5,7 @@
 #
 title: Anand Damodaran
 email: info.ananddamodaran@gmail.com
-description: Android Developer
+description: Android Engineer | Kotlin | Kotlin-Multiplatform | Flutter 
 url: https://damodaran.dev
 keywords: ["blog"]
 #destination: public
@@ -34,8 +34,8 @@ kramdown:
 owner:
   name: Anand Damodaran
   avatar: avatar.png
-  job: "Android Developer"
-  bio: ""
+  job: "Android Engineer"
+  bio: "Kotlin | Kotlin-Multiplatform | Flutter"
   email: info.ananddamodaran@gmail.com
   disqus-shortname: danand
   twitter: anand_damodaran
