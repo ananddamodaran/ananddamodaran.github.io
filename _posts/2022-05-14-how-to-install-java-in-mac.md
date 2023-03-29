@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install Oracle Java JDK in Ubuntu Linux
+title: Install Oracle Java JDK in Ubuntu Mac
 excerpt: "Getting started with Java."
 categories: [Java]
 comments: true
