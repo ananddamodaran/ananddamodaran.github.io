@@ -136,11 +136,5 @@ image:
 	<!-- #### Show All Processes:  -->
 50. ps aux
 
-```mermaid
-graph LR;
-A[Start] --> B[Initialize Python];
-B --> C[Print "Hello, World!"];
-C --> D[Finish];
-```
 
 
