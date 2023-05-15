@@ -94,42 +94,38 @@ image:
 
 	`ifconfig` - displays the configuration details of all the network interfaces in the system.
 
-Sure! Here are examples of the next 10 Linux and Terminal commands:
+21. **netstat** - Show network status
 
-21. netstat - Show network status
-   - `netstat` - displays the current network connections and their status.
+      `netstat` - displays the current network connections and their status.
+22. **iptables** - Configure firewall rules
+   
+      `iptables -L` - lists all the current firewall rules.
+23. **wget** - Download files from the web
+   
+      `wget http://example.com/file.zip` - downloads the file `file.zip` from the web.
+24. **curl** - Transfer data from or to a server
 
-22. iptables - Configure firewall rules
-   - `iptables -L` - lists all the current firewall rules.
+      `curl http://example.com/api` - sends an HTTP GET request to `example.com/api` and displays the server's response.
+25. **ssh** - Connect to a remote server securely
 
-23. wget - Download files from the web
-   - `wget http://example.com/file.zip` - downloads the file `file.zip` from the web.
+      `ssh user@remote_server` - connects to `remote_server` as `user`.
+26. **scp** - Securely copy files between hosts
 
-24. curl - Transfer data from or to a server
-   - `curl http://example.com/api` - sends an HTTP GET request to `example.com/api` and displays the server's response.
-
-25. ssh - Connect to a remote server securely
-   - `ssh user@remote_server` - connects to `remote_server` as `user`.
-
-26. scp - Securely copy files between hosts
-   - `scp file.txt user@remote_server:/home/user` - copies `file.txt` to `remote_server`'s `/home/user` directory.
+      `scp file.txt user@remote_server:/home/user` - copies `file.txt` to `remote_server`'s `/home/user` directory.
 	
 	<!-- #### Archiving and Compression: -->
 
-27. tar - Archive files and directories
+27. **tar** - Archive files and directories
    - `tar -cvf archive.tar file.txt` - creates a new tar archive `archive.tar` containing `file.txt`.
 
-28. gzip - Compress files
+28. **gzip** - Compress files
    - `gzip file.txt` - compresses `file.txt` and renames it to `file.txt.gz`.
 
-29. unzip - Extract files from a ZIP archive
+29. **unzip** - Extract files from a ZIP archive
    - `unzip archive.zip` - extracts all the files from the ZIP archive `archive.zip`.
-
 <!-- #### Search and Text Manipulation: -->
-
-30. find - Search for files and directories
+30. **find** - Search for files and directories
    - `find /home/user -name file.txt` - searches for the file `file.txt` in the directory `/home/user` and its subdirectories.
-Sure, here are examples of the next 10 Linux and Terminal commands:
 
 31. grep - Search for a pattern in a file
    - `grep 'error' log.txt` - searches for the word 'error' in the file `log.txt`.
@@ -161,10 +157,7 @@ Sure, here are examples of the next 10 Linux and Terminal commands:
 
 40. free - Display system memory usage
    - `free -h` - displays the system memory usage in human-readable format.
-   Sure, here are examples of the next 10 Linux and Terminal commands:
-
 <!-- #### System Information and Utilities: -->
-
 41. uname - Display system information
    - `uname -a` - displays all the system information, including the operating system, kernel version, and hardware architecture.
 
