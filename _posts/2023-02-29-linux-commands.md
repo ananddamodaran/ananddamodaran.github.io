@@ -94,47 +94,107 @@ image:
 
 	`ifconfig` - displays the configuration details of all the network interfaces in the system.
 
+Sure! Here are examples of the next 10 Linux and Terminal commands:
 
+21. netstat - Show network status
+   - `netstat` - displays the current network connections and their status.
 
-21. netstat
-22. iptables
-23. wget
-24. curl
-25. ssh
-26. scp
+22. iptables - Configure firewall rules
+   - `iptables -L` - lists all the current firewall rules.
+
+23. wget - Download files from the web
+   - `wget http://example.com/file.zip` - downloads the file `file.zip` from the web.
+
+24. curl - Transfer data from or to a server
+   - `curl http://example.com/api` - sends an HTTP GET request to `example.com/api` and displays the server's response.
+
+25. ssh - Connect to a remote server securely
+   - `ssh user@remote_server` - connects to `remote_server` as `user`.
+
+26. scp - Securely copy files between hosts
+   - `scp file.txt user@remote_server:/home/user` - copies `file.txt` to `remote_server`'s `/home/user` directory.
+	
 	<!-- #### Archiving and Compression: -->
-27. tar
-28. gzip
-29. unzip
-	<!-- #### Search and Text Manipulation: -->
-30. find
-31. grep
-32. sed
-33. awk
-	<!-- #### Disk and Memory Usage: -->
-34. du
-35. df
-36. free
-	<!-- #### System Information and Utilities: -->
-37. uname
-38. date
-39. history
-40. clear
-41. exit
-	<!-- #### Tar Archives: -->
-42. tar -xvf
-43. tar -cvf
-44. tar -czvf
-45. tar -xvzf
-	<!-- #### List Files: -->
-46. ls -l
-47. ls -a
-	<!-- #### User Information: -->
-48. whoami
-	<!-- #### Human-Readable Disk Space Usage: -->
-49. df -h
-	<!-- #### Show All Processes:  -->
-50. ps aux
+
+27. tar - Archive files and directories
+   - `tar -cvf archive.tar file.txt` - creates a new tar archive `archive.tar` containing `file.txt`.
+
+28. gzip - Compress files
+   - `gzip file.txt` - compresses `file.txt` and renames it to `file.txt.gz`.
+
+29. unzip - Extract files from a ZIP archive
+   - `unzip archive.zip` - extracts all the files from the ZIP archive `archive.zip`.
+
+<!-- #### Search and Text Manipulation: -->
+
+30. find - Search for files and directories
+   - `find /home/user -name file.txt` - searches for the file `file.txt` in the directory `/home/user` and its subdirectories.
+Sure, here are examples of the next 10 Linux and Terminal commands:
+
+31. grep - Search for a pattern in a file
+   - `grep 'error' log.txt` - searches for the word 'error' in the file `log.txt`.
+
+32. sed - Stream editor for filtering and transforming text
+   - `sed 's/old_text/new_text/g' file.txt` - replaces all occurrences of `old_text` with `new_text` in `file.txt`.
+
+33. awk - Text processing and data extraction
+   - `awk '{print $1}' file.txt` - prints the first column of `file.txt`.
+
+34. echo - Print a message to the terminal
+   - `echo 'Hello World!'` - prints 'Hello World!' to the terminal.
+
+35. date - Display or set the system date and time
+   - `date` - displays the current system date and time.
+
+36. cal - Display a calendar
+   - `cal` - displays a calendar of the current month.
+
+37. history - Display the command history
+   - `history` - displays the list of commands executed in the terminal.
+
+38. du - Estimate file space usage
+   - `du -h file.txt` - displays the disk usage of `file.txt` in human-readable format.
+<!-- #### Disk and Memory Usage: -->
+
+39. df - Show disk usage and free space
+   - `df -h` - displays the disk usage and free space of all the mounted filesystems in human-readable format.
+
+40. free - Display system memory usage
+   - `free -h` - displays the system memory usage in human-readable format.
+   Sure, here are examples of the next 10 Linux and Terminal commands:
+
+<!-- #### System Information and Utilities: -->
+
+41. uname - Display system information
+   - `uname -a` - displays all the system information, including the operating system, kernel version, and hardware architecture.
+
+42. whoami - Display the current user
+   - `whoami` - displays the name of the current user.
+
+43. id - Display user and group information
+   - `id` - displays the user and group information of the current user.
+
+44. passwd - Change user password
+   - `passwd` - changes the password of the current user.
+
+45. useradd - Create a new user account
+   - `sudo useradd newuser` - creates a new user account named `newuser`.
+
+46. usermod - Modify user account
+   - `sudo usermod -aG groupname username` - adds the user `username` to the group `groupname`.
+
+47. userdel - Delete a user account
+   - `sudo userdel username` - deletes the user account `username`.
+
+48. groupadd - Create a new group
+   - `sudo groupadd newgroup` - creates a new group named `newgroup`.
+
+49. groupmod - Modify a group
+   - `sudo groupmod -n newname oldname` - renames the group `oldname` to `newname`.
+
+50. groupdel - Delete a group
+   - `sudo groupdel groupname` - deletes the group named `groupname`.
+
 
 
 
