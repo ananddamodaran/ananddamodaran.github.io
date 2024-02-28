@@ -4,7 +4,7 @@ title: "Understanding Gradle Version Catalogs: A Comprehensive Guide for Android
 excerpt: "This guide introduces Gradle Version Catalogs, a new standard for managing dependencies in Android development. It offers benefits for both new and existing projects, simplifying dependency management and improving workflow."
 categories: [Android]
 comments: true
-url : https://anand.dev/articles/2023-03/linux-commands
+url : https://anand.dev/articles/2024-02/gradle-version-catalogs
 identifier: 1235
 image:
   feature: 
