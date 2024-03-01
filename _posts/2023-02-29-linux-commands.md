@@ -5,7 +5,7 @@ excerpt: "Linux is a powerful and versatile operating system that has gained imm
 categories: [Linux]
 comments: true
 url : https://anand.dev/articles/2023-03/linux-commands
-identifier: 1234
+identifier: 1235
 image:
   feature: https://miro.medium.com/max/8512/0*-hMqapazeDO-IOck
   credit: 

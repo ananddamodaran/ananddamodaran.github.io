@@ -5,7 +5,7 @@ excerpt: "This guide introduces Gradle Version Catalogs, a new standard for mana
 categories: [Android]
 comments: true
 url : https://anand.dev/articles/2024-02/gradle-version-catalogs
-identifier: 1235
+identifier: 1236
 image:
   feature: 
   credit: 

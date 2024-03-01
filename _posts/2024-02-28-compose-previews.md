@@ -5,7 +5,7 @@ excerpt: "This blog post discusses using Jetpack Compose previews to efficiently
 categories: [Android]
 comments: true
 url : https://anand.dev/articles/2024-02/compose-previews
-identifier: 1235
+identifier: 1237
 image:
   feature: 
   credit: 
