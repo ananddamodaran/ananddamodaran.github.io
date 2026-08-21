@@ -7,7 +7,7 @@ title: Anand Damodaran
 email: info.ananddamodaran@gmail.com
 description: Android Engineer | Kotlin | Kotlin-Multiplatform | Flutter 
 url: https://anand.dev
-keywords: ["blog"]
+keywords: ["Android Engineer", "Kotlin", "Kotlin Multiplatform", "Jetpack Compose", "Flutter", "Android Architecture", "Blog"]
 #destination: public
 
 #
@@ -42,7 +42,6 @@ owner:
   facebook: #username
   google:
     plus: #username
-    #analytics: UA-163451563-1  G-ELNYV3EVW2
     analytics: G-ELNYV3EVW2
     verify:
     ad-client:
@@ -74,3 +73,4 @@ theme: jekyll-theme-cayman
 plugins:
   - jemoji
   - jekyll-seo-tag
+  - jekyll-sitemap

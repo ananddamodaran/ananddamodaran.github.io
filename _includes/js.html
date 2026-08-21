@@ -10,4 +10,35 @@
 
   gtag('config', '{{ site.owner.google.analytics }}');
 </script>
-{% endif %}
+{% endif %}<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var codeBlocks = document.querySelectorAll('pre');
+    codeBlocks.forEach(function(pre) {
+      if (pre.parentNode.classList.contains('highlight')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'highlight-wrapper';
+        pre.parentNode.insertBefore(wrapper, pre);
+        wrapper.appendChild(pre);
+
+        var copyBtn = document.createElement('button');
+        copyBtn.className = 'copy-code-btn';
+        copyBtn.type = 'button';
+        copyBtn.innerText = 'Copy';
+
+        copyBtn.addEventListener('click', function() {
+          var code = pre.querySelector('code') || pre;
+          navigator.clipboard.writeText(code.innerText).then(function() {
+            copyBtn.innerText = 'Copied!';
+            copyBtn.classList.add('copied');
+            setTimeout(function() {
+              copyBtn.innerText = 'Copy';
+              copyBtn.classList.remove('copied');
+            }, 2000);
+          });
+        });
+
+        wrapper.appendChild(copyBtn);
+      }
+    });
+  });
+</script>

@@ -18,6 +18,8 @@ layout: default
         {% endunless %}
       {% endfor %}
       {% endif %}
+      •
+      {% assign content = post.content %}{% include read_time.html %}
     </p>
     <h4>
       <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title | escape }}">{{ post.title }}</a>
