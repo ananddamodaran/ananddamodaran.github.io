@@ -1,8 +1,12 @@
 # careers section data
-# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Synchronoss Technologies
+  link: https://www.synchronoss.com/
+  date: July 2022 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Senior Software Engineer II
+
 - name: Integra Micro Software Services
   link: https://www.integramicro.com/
-  date: August 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  date: August 2017 - July 2022
   job: Senior Software Engineer
 
 - name: Ginnovee Technology Pvt. Ltd
@@ -20,7 +24,7 @@
   date: July 2013 - February 2016
   job: Android Application Developer
 
-- name: Griffin (Griffin Infosys) Infosystems
+- name: Griffin Infosystems
   link: https://griffintechnology.com/
   date: January 2012 - April 2013
-  job: Technical Trainer(Java)
+  job: Technical Trainer (Java)
