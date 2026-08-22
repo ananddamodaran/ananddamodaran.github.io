@@ -37,7 +37,7 @@ owner:
   job: "Android Engineer"
   bio: "Kotlin | Kotlin-Multiplatform | Flutter"
   email: info.ananddamodaran@gmail.com
-  disqus-shortname: danand
+  disqus-shortname:
   twitter: anand_damodaran
   facebook: #username
   google:
@@ -49,7 +49,7 @@ owner:
   bing-verify:
   github: ananddamodaran
   gitlab: #username
-  stackoverflow: 8924352/anand-damodaran #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: #username
   linkedin: anand-damodaran
   skype: #username
   xing: #username
@@ -57,7 +57,7 @@ owner:
   lastfm: #username
   tumblr: #username
   pinterest: #username
-  foursquare: /user/547748033
+  foursquare: #username
   steam: #username
   dribbble: #username
   youtube: #username
