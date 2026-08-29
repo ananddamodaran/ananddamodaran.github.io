@@ -4,8 +4,9 @@ title: "The Ant and the Butterfly"
 excerpt: "Everyone gets their own special time to shine and be great!"
 categories: [Fables, Moral Stories]
 comments: true
+thumbnail: /img/Ant_Watches_Butterfly_Emerge.webp
 image:
-  feature: 
+  feature: Ant_Watches_Butterfly_Emerge.webp
 ---
 
 Once upon a time, a little ant was walking around looking for food when it saw a little cocoon. The cocoon could hardly move, only wiggling its tail just a tiny bit to show it was alive. 

@@ -2,49 +2,63 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        {{ post.date | date: "%-d %b %Y" | upcase }}
-      </span>
-      {% if post.categories.size > 0 %}
-      •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
-        {% unless forloop.last %}
-        <span>/</span>
-        {% endunless %}
-      {% endfor %}
+<div class="posts-container" id="post-list">
+  {% for post in site.posts %}
+  {% assign thumb = nil %}
+  {% if post.thumbnail and post.thumbnail != "" %}
+    {% assign thumb = post.thumbnail %}
+  {% elsif post.image.feature and post.image.feature != "" %}
+    {% assign thumb = post.image.feature %}
+  {% endif %}
+
+  <article class="post-card {% if thumb %}has-thumbnail{% endif %}">
+    <div class="post-card-body">
+      <header class="post-header">
+        <div class="post-meta">
+          <span class="post-date">
+            <i class="fa fa-calendar-o"></i> {{ post.date | date: "%-d %b %Y" | upcase }}
+          </span>
+          {% if post.categories.size > 0 %}
+          <span class="meta-divider">•</span>
+          {% for cat in post.categories %}
+            <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}"><i class="fa fa-folder-o"></i> {{ cat }}</a>
+          {% endfor %}
+          {% endif %}
+          <span class="meta-divider">•</span>
+          <span class="read-time"><i class="fa fa-clock-o"></i> {% assign content = post.content %}{% include read_time.html %}</span>
+        </div>
+        <h3 class="post-title">
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title | escape }}">{{ post.title }}</a>
+          {% if post.link %}
+          <a class="post-title-link" href="{{ post.link }}" target="_blank" title="External link"><i class="fa fa-external-link"></i></a>
+          {% endif %}
+        </h3>
+      </header>
+
+      {% if post.excerpt %}
+      <div class="post-description">
+        <p>{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+      </div>
       {% endif %}
-      •
-      {% assign content = post.content %}{% include read_time.html %}
-    </p>
-    <h4>
-      <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title | escape }}">{{ post.title }}</a>
-      {% if post.link %}
-      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title | escape }}"><i class="fa fa-external-link"></i></a>
+
+      {% if post.tags.size > 0 %}
+      <div class="post-tags">
+        {% for tag in post.tags %}
+          <span class="tag-pill">#{{ tag }}</span>
+        {% endfor %}
+      </div>
       {% endif %}
-    </h4>
+    </div>
 
-    {% if post.author %}
-      {% assign author = site.data.authors[post.author] %}
-    {% else %}
-      {% assign author = site.owner %}
-    {% endif %}
-
-    </header>
-
-    {% if post.excerpt %}
-    <div class="post-description">
-      <p>
-        {{ post.excerpt }}
-      </p>
+    {% if thumb %}
+    <div class="post-card-thumbnail">
+      <a href="{{ site.url }}{{ post.url }}" aria-label="{{ post.title | escape }}">
+        <img src="{% if thumb contains 'http' or thumb contains 'https' %}{{ thumb }}{% else %}{{ site.url }}{{ thumb }}{% endif %}" alt="{{ post.title | escape }} thumbnail" loading="lazy">
+      </a>
     </div>
     {% endif %}
+  </article>
+  {% endfor %}
+</div>
 
 
-
-</section>
-{% endfor %}

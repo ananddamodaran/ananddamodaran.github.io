@@ -240,12 +240,11 @@ body.dark-mode .post-meta .read-time {
 }
 
 body.dark-mode .post-description,
-body.dark-mode article,
+body.dark-mode article:not(.post-card),
 body.dark-mode p,
 body.dark-mode li,
-body.dark-mode div,
-body.dark-mode span:not(.read-time):not(.post-date):not(.post-cat) {
-  color: #e2e8f0 !important;
+body.dark-mode span:not(.read-time):not(.post-date):not(.post-cat):not(.tag-pill) {
+  color: #e2e8f0;
 }
 
 body.dark-mode pre,

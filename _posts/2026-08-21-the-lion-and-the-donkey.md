@@ -4,8 +4,9 @@ title: "The Lion and the Donkey"
 excerpt: "It is good to be brave, but it is not good to be silly and put yourself in danger!"
 categories: [Fables, Moral Stories]
 comments: true
+thumbnail: /img/The_Lion_and_the_Donkey.webp
 image:
-  feature: 
+  feature: The_Lion_and_the_Donkey.webp
 ---
 
 Once upon a time, a donkey was playing in a field of hay when a very hungry lion came along. 
