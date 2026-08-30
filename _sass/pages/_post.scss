@@ -22,18 +22,7 @@
 
   body.dark-mode & {
     background-color: #0b0f19 !important;
-  }
-
-  &.is-single-page {
-    @media (max-width: 991px) {
-      position: relative !important;
-      top: 0 !important;
-      z-index: 10 !important;
-      padding: 25px 20px 40px !important;
-      height: auto !important;
-    }
-  }
-}
+  }}
 
 .posts-container {
   display: flex;
