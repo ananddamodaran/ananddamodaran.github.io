@@ -1,15 +1,22 @@
 // Post listing container
 .post-listing {
   background-color: #f1f5f9;
-  padding: 25px 15px;
-  height: auto;
+  position: absolute;
+  top: 400px;
+  z-index: 233;
+  width: 100%;
+  padding: 20px 20px 0;
+  -webkit-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
 
   @include media-query($small-screen) {
-    padding: 35px 25px;
+    padding: 50px 30px 0;
   }
   @include media-query($medium-screen) {
     height: 100vh;
     overflow-y: auto;
+    position: initial;
+    top: 0;
     padding: 40px 45px;
   }
 
