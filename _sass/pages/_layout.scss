@@ -16,6 +16,14 @@
     position: initial;
     width: 100%;
   }
+
+  body:not(.post_listing-layout) & {
+    @media (max-width: 991px) {
+      position: relative !important;
+      min-height: auto !important;
+      padding: 20px 15px 15px !important;
+    }
+  }
 }
 .cover-card {
   color: $text-color;
